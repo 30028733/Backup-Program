@@ -140,7 +140,7 @@ def main():
         fileConfig = open("backupcfg.py", "x")
 #--------------------------------------------------------------------------------------------------
         #Create basis for config file (was going to put in seperate function for orginisation, but caused errors)
-        fileConfig.write(f"""#Backup Config File: Edit value fields to configure automated backup (CAPITAL SENSITIVE)
+        fileConfig.write("""#Backup Config File: Edit value fields to configure automated backup (CAPITAL SENSITIVE)
 #Make sure lists for names, backups and destinations corespond to desired values in a column like fashion
 
 #Backup Job names (Used to determine which directory to backup) (DON'T USE SPACES)
